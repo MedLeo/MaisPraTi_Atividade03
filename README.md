@@ -1,2 +1,3 @@
-# Atividade 03 - MaisPraTi
-# Criando uma Página Web Simples
+# Atividade 3 - MaisPraTi
+
+## Criando uma página web simples
