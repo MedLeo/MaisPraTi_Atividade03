@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Afacad Flux', sans-serif;
+    line-height: 2;    
+    display: flex;
+    flex-direction: column;  
+    background-image: url(img/ceu-estrelado.jpeg);
+    background-repeat: space;  
+}
+
+main {
+    flex: 1;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    gap: 20px;
+    flex: 1; 
+}
+
+.paragrafo {
+    text-align: justify;
+    margin-right: 5vh;
+}
+
+section {
+    width: 70%;
+    padding: 20px;
+    background-color: #e0e0e0;    
+    display: flex;
+    justify-content: space-between;    
+}
+
+section .text {
+    width: 60%;
+}
+
+section .img {
+    width: 70%;
+    text-align: right;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+aside ul li {
+    list-style: none;
+    text-align: center;
+}
+
+aside li a {
+    text-decoration: none; 
+    font-size: 2vh; 
+    color:green;
+}
+
+aside li a:hover {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
